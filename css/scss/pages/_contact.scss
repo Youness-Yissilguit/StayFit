@@ -1,0 +1,44 @@
+body{
+  height: 4000px
+}
+.contact{
+  padding: 30px 5px;
+  .contact-form{
+    label{
+      color: rgba(#fff, .8);
+      &:first-letter{
+        color: $mainColor;
+      }
+    }
+    input,textarea{
+      display: block;
+      width: 100%;
+      border: 0;
+      outline: none;
+      margin-bottom: 20px;
+      background-color: rgba(#fff, .5);
+      color: #fff;
+      border: 2px solid transparent;
+    }
+    input[type="text"],input[type="email"]{
+      padding: 7px;
+    }
+    textarea{
+      height: 100px;
+      resize: vertical;
+      padding: 7px;
+    }
+    input[type="text"]:focus,input[type="email"]:focus, textarea:focus{
+      border-color: #fff;
+      background-color: transparent;
+    }
+    input[type="submit"]{
+      width: 160px;
+      background: linear-gradient(to right, $mainColor, #d35400);
+      padding: 10px;
+    }
+  }
+}
+.map-container{
+  height: 500px;
+}
