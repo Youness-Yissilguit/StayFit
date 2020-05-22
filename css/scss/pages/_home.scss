@@ -133,12 +133,7 @@ header{
       transition: all .7s;
       &:hover{
         background-color: $mainColor;
-        animation: skew .5s ease-in-out;
       }
-    }
-    @keyframes skew{
-      0%{transform: skewX(15deg);}
-      50%{transform: skewX(-15deg);}
     }
     .show{
       opacity: 1;
