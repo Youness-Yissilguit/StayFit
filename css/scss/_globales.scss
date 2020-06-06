@@ -22,7 +22,7 @@ body{
   align-items: center;
   transition: opacity .5s;
   svg{
-    width: 30%;
+    width: 100px;
     overflow: hidden;
     height: auto;
     #top-body{
@@ -67,7 +67,7 @@ body{
 }
 @media (max-width: 768px) {
   .loading svg{
-    width: 70%
+    width: 90px
   }
 }
 .main-title{

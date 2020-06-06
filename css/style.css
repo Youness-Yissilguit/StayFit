@@ -22,7 +22,7 @@ body {
   align-items: center;
   transition: opacity .5s; }
   .loading svg {
-    width: 30%;
+    width: 100px;
     overflow: hidden;
     height: auto; }
     .loading svg #top-body {
@@ -66,7 +66,7 @@ body {
     opacity: 1; } }
 @media (max-width: 768px) {
   .loading svg {
-    width: 70%; } }
+    width: 90px; } }
 .main-title {
   text-transform: uppercase;
   color: #fff;
@@ -166,7 +166,7 @@ header {
       right: 5%; }
       header nav .humberger-menu span {
         display: block;
-        width: 35px;
+        width: 30px;
         height: 3px;
         background-color: #000;
         margin: 5px auto 0;
@@ -243,13 +243,13 @@ header {
     z-index: 3; }
     .fixed-nav .humberger-menu span {
       display: block;
-      width: 35px;
+      width: 30px;
       height: 3px;
       background-color: #000;
       margin: 5px auto 0;
       border-radius: 3px; }
     .fixed-nav .humberger-menu span:first-of-type {
-      transform: rotate(45deg) translate(7px, 5px); }
+      transform: rotate(45deg) translate(6px, 6px); }
     .fixed-nav .humberger-menu span:last-of-type {
       transform: rotate(-45deg) translate(0); }
   .fixed-nav .nav-links {
@@ -353,7 +353,7 @@ header {
         text-align: left;
         margin-top: 10px;
         color: rgba(255, 255, 255, 0.8);
-        font-size: 14px;
+        font-size: 16px;
         opacity: 0;
         transition: opacity .3s; }
     .classes .class:hover {
@@ -368,7 +368,7 @@ header {
   .prices p {
     color: #fff;
     letter-spacing: 3px;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 10px; }
   .prices .price-box {
     padding: 20px 10px;
@@ -377,8 +377,9 @@ header {
     border-top: 2px solid #ea3e20;
     border-bottom: 2px solid #fff; }
     .prices .price-box .price-type span {
-      font-size: 14px;
-      color: #fff; }
+      font-size: 16px;
+      color: #fff;
+      font-weight: bold; }
     .prices .price-box .price-type h3 {
       color: #ea3e20;
       font-size: 45px;
@@ -386,7 +387,7 @@ header {
       font-family: sans-serif; }
     .prices .price-box li:not(:first-of-type) {
       color: rgba(255, 255, 255, 0.6);
-      font-size: 13px;
+      font-size: 15px;
       line-height: 3; }
     .prices .price-box button {
       border: 0;
